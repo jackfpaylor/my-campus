@@ -1,0 +1,2 @@
+module StudentOmegasHelper
+end

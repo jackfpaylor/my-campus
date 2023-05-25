@@ -1,0 +1,29 @@
+<style>
+  <%= render 'home/login_style' %>
+</style>
+<body class="text-center">
+<br/><br/>
+<div class="col-md-10 mx-auto col-lg-5 text-dark">
+  <form class="p-4 p-md-5 border rounded-3 bg-light">
+    <h2 class="display-5 fw-bold">Sign in</h2>
+    <div class="form-floating mb-3">
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <label for="floatingPassword">Password</label>
+    </div>
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <hr class="my-4">
+    <small class="text-muted">By clicking Sign in, you agree to the terms of use.</small>
+  </form>
+</div>
+  <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
+</form>
+</body>

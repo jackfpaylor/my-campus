@@ -1,0 +1,46 @@
+<p style="color: green"><%= notice %></p>
+
+<div class="container">
+  <h1>Registered Students</h1>
+
+    <table class="table table-striped table-bordered table-hover">
+      <thead>
+      <tr>
+        <th style="color:whitesmoke">First Name</th>
+        <th style="color:whitesmoke">Last Name</th>
+        <th style="color:whitesmoke">Email</th>
+        <th style="color:whitesmoke">Phone</th>
+        <th style="color:whitesmoke">High School</th>
+        <th style="color:whitesmoke">Hometown</th>
+        <th style="color:whitesmoke">Instagram</th>
+        <th style="color:whitesmoke">Snapchat</th>
+        <th style="color:whitesmoke">High school activities</th>
+        <th style="color:whitesmoke">Delete</th>
+        <th style="color:whitesmoke">Edit</th>
+      </tr>
+      </thead>
+      <tbody>
+      <% @student_omegas.each do |t| %>
+        <tr>
+          <td style="color:whitesmoke"><%= t.first_name %></td>
+          <td style="color:whitesmoke"><%= t.last_name %></td>
+          <td style="color:whitesmoke"><%= t.email %></td>
+          <td style="color:whitesmoke"><%= t.phone %></td>
+          <td style="color:whitesmoke"><%= t.high_school %></td>
+          <td style="color:whitesmoke"><%= t.hometown %></td>
+          <td style="color:whitesmoke"><%= t.instagram %></td>
+          <td style="color:whitesmoke"><%= t.snapchat %></td>
+          <td style="color:whitesmoke"><%= t.highschool_activities %></td>
+          <td style="color:whitesmoke"><%= link_to 'Delete', t, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger btn-sm" %></td>
+          <td style="color:whitesmoke"><%= link_to 'Edit', t, method: :edit, class: "btn btn-info btn-sm" %></td>
+
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+    <%= link_to "Add student", new_student_omega_path, :class => "btn btn-secondary" %>
+</div>
+</div>
+
+
+
