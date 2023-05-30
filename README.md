@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+myCampus is an all-in-one higher education organization and event management software. From small hyper-focused clubs, to large student organizations, myCampus helps you effectively manage members, finances, and internal matters. 
 
-Things you may want to cover:
+The Details:
 
-* Ruby version
+* Written in Rails 7 with Bootstrap Front
+* Postgres backend
+* Scaleable
+* 
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
