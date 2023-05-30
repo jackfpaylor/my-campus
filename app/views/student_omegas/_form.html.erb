@@ -42,13 +42,9 @@
     <%= form.text_field :hometown %>
   </div>
 
-  <div class="align-items-center">
-      <label class="sr-only" for="inlineFormInputGroup">Instagram</label>
-        <div class="input-group mb-2">
-          <div class="input-group-prepend">
-            <div class="input-group-text">@</div>
-          </div>
-          <%= form.text_field :instagram %>
+  <div>
+    <%= form.label :instagram, style: "display: block" %>
+    <%= form.text_field :instagram %>
         </div>
 
 
