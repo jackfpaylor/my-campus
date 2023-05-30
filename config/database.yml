@@ -78,14 +78,14 @@ test:
 # the values provided in this file. Alternatively, you can specify a connection
 # URL environment variable explicitly:
 #
-#   production:
-#     url: <%= ENV["MY_APP_DATABASE_URL"] %>
+#production:
+#url: postgres://my_campus:XU8eV8ANu1SkcrS6mdX9A7ONLoaALjz9@dpg-chr1ajhmbg5e1f6ne29g-a/my_campus
 #
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
 production:
   <<: *default
-  database: my_campus_production
+  database: my_campus
   username: my_campus
-  password: <%= ENV["MY_CAMPUS_DATABASE_PASSWORD"] %>
+  password: XU8eV8ANu1SkcrS6mdX9A7ONLoaALjz9

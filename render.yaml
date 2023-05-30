@@ -1,18 +1,18 @@
 databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
+  - name: my-campus
+    databaseName: my_campus
+    user: my_campus
 
 services:
   - type: web
-    name: mysite
+    name: my-campus
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
-      - key: DATABASE_URL
+      - key: postgres://my_campus:XU8eV8ANu1SkcrS6mdX9A7ONLoaALjz9@dpg-chr1ajhmbg5e1f6ne29g-a/my_campus
         fromDatabase:
-          name: mysite
+          name: my_campus
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
