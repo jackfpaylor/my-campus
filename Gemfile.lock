@@ -235,6 +235,7 @@ DEPENDENCIES
   bootsnap
   bootstrap (~> 5.0)
   bootstrap_form (~> 5.2)
+  bundler
   capybara
   debug
   importmap-rails
