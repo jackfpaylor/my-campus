@@ -1,5 +1,5 @@
 # README
-[![stability-beta](https://img.shields.io/badge/stability-beta-33bbff.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#beta)
+[![stability-wip](https://img.shields.io/badge/stability-wip-lightgrey.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#work-in-progress)
 
 myCampus is an all-in-one higher education organization and event management software. From small hyper-focused clubs, to large student organizations, myCampus helps you effectively manage members, finances, and internal matters. 
 
